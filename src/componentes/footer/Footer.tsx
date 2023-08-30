@@ -1,16 +1,16 @@
 import './Footer.css'
-
+import Logo from '../../assets/mee.png'
 function Footer(){
     return(
         <footer>
-           
+            
            <div className='info'>
            <div className='rodapelogo'>
          </div>
-         
+         <img className='me' src={Logo} alt=""/>
           <article className='conteudo'>
             <h3>Contato</h3>
-            <a href='#'>E-mail: maria.barbosa4@estudante.ifms.edu.br</a>
+            <a href='#'>Email: maria.barbosa4@estudante.ifms.edu.br</a>
             <dd></dd>
              <a href='#'>Telefone: 67998871244</a>
             
@@ -18,54 +18,24 @@ function Footer(){
           </article>
 
           <article className='conteudo'>
-            <h3>Company</h3>
-             <a href='#'>Careers</a>
+            <h3>Links Relevantes</h3>
+             <a href='#'>Website: www.mariaeduarda.com</a>
             <dd></dd>
-             <a href='#'>Partner program</a>
+             <a href='#'>LinkedIn: www.linkedin.com/in/duda</a>
             <dd></dd>
-             <a href='#'>Find a Partner</a>
-            <dd></dd>
-             <a href='#'>Contact us</a>
-            <dd></dd>
-             <a href='#'>For Investors</a>
-            <dd></dd>
-             <a href='#'>Professional Services</a>
+             <a href='#'>GitHub: www.github.com/mariaeduardinha</a>
+            
           </article>
 
-          <article className='conteudo'>
-          <h3>Learn & Get help</h3>
-          <a href='#'>AppMaster 101</a>
-            <dd></dd>
-            <a href='#'>University</a>
-            <dd></dd>
-            <a href='#'>Blog</a>
-            <dd></dd>
-            <a href='#'>ROI Calculator</a>
-            <dd></dd>
-            <a href='#'>Roadmap</a>
-          </article>
+         
 
           <article className='conteudo'>
-            <h3>Community</h3>
-            <a href='#'>Community</a>
-            <dd></dd>
-            <a href='#'>Documentation</a>
+            <h3>Declaração de Privacidade</h3>
+            <p>Esta página coleta cookies para melhorar a experiência do usuário. Leia nossa política de privacidade para mais informações.</p>
+            <h3>Data de Atualização:</h3>
+          <p>Última atualização: 30 de agosto de 2023</p>
           </article>
 
-          <article className='conteudo'>
-            <h3>Comparison</h3>
-             <a href='#'>AppMaster vs Adalo</a>
-            <dd></dd>
-             <a href='#'>AppMaster vs Webflow</a>
-            <dd></dd>
-             <a href='#'>AppMaster vs Bubble</a>
-            <dd></dd>
-             <a href='#'>AppMaster vs Directual</a>
-            <dd></dd>
-             <a href='#'>AppMaster vs Mendix</a>
-            <dd></dd>
-             <a href='#'>AppMaster vs Quixy </a>
-          </article>
         </div>
        </footer>
     )
