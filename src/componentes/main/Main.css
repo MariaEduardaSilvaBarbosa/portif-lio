@@ -1,0 +1,17 @@
+main{
+   
+    background-color: palevioletred;
+    display: flex;
+    padding: 50px;
+    align-items: center;
+    
+}
+
+.perfil{
+   width: 700px;
+   height:550px ;
+   margin-top: 10px;
+}
+
+
+
