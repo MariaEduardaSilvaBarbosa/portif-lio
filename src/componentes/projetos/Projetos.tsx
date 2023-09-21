@@ -9,7 +9,7 @@ type ProjetosType = {
 }
 export default function Projetos(){
     //Hook
-    const [texto,setTexto] = useState("Guilherme")
+    const [texto,setTexto] = useState("")
 
     const projetos:ProjetosType[] = [
         {
