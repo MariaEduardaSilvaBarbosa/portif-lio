@@ -10,20 +10,20 @@ function Footer(){
          <img className='me' src={Logo} alt=""/>
           <article className='conteudo'>
             <h3>Contato</h3>
-            <a href='#'>Email: maria.barbosa4@estudante.ifms.edu.br</a>
+            <a className='l' href='#'>Email: maria.barbosa4@estudante.ifms.edu.br</a>
             <dd></dd>
-             <a href='#'>Telefone: 67998871244</a>
+             <a className='l' href='#'>Telefone: 67998871244</a>
             
             
           </article>
 
           <article className='conteudo'>
             <h3>Links Relevantes</h3>
-             <a href='#'>Website: www.mariaeduarda.com</a>
+             <a className='l' href='#'>Website: www.mariaeduarda.com</a>
             <dd></dd>
-             <a href='#'>LinkedIn: www.linkedin.com/in/duda</a>
+             <a className='l' href='#'>LinkedIn: www.linkedin.com/in/duda</a>
             <dd></dd>
-             <a href='#'>GitHub: www.github.com/mariaeduardinha</a>
+             <a className='l' href='#'>GitHub: www.github.com/mariaeduardinha</a>
             
           </article>
 

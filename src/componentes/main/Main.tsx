@@ -1,10 +1,11 @@
+
 import './Main.css'
 import Logo from '../../assets/perfil.png'
 function Main(){
 
   return(
 
-  <main>
+  <main className='main_eu'>
     <img className='perfil' src={Logo} alt=""/>
 
     <div className='txt'>
