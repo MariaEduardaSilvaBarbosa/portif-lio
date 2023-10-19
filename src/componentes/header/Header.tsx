@@ -1,27 +1,27 @@
 import './Header.css'
-import logo from '../../assets/logome.png'
+import { Link } from 'react-router-dom'
 function Header(){
     return(
         <header>
-         <div>
-         <img src={logo} alt=""/>
-         </div>
-         <nav>
-            <ul>
-                <li>
-                    <a href="#">Página inicial</a>
-                </li>
-                <li>
-                    <a href="#">Sobre</a>
-                </li>
-                <li>
-                    <a href="#">Noticía</a>
-                </li>
-                <li>
-                    <a href="#">Contato</a>
-                </li>
-            </ul>
-         </nav>
+            <div>
+            <Link to="/"><img src='/logome.png'/></Link>
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <Link to="/">Página Inicial</Link>
+                    </li>
+                    <li>
+                        <Link to="/sobre">Sobre</Link>
+                    </li>
+                    <li>
+                        <Link to="/noticias">Notícias</Link>
+                    </li>
+                    <li>
+                        <Link to="/contato">Contato</Link>
+                    </li>
+                </ul>
+            </nav>
         </header>
     )
 }

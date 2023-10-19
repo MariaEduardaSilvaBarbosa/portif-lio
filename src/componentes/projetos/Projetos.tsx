@@ -1,6 +1,8 @@
 import { useState } from "react";
 import Projeto from "../projeto/Projeto";
 import './Projetos.css'
+
+
 type ProjetosType = {
     id: number,
     titulo:string,
