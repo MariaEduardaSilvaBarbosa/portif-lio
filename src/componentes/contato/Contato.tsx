@@ -1,8 +1,11 @@
 import './Contato.css'
 function Contato(){
     return(
-    <div>
+
+    
+    <div className='tudo' >
        <form className='form' >
+       <label className='t'>ENTRE EM CONTATO COMIGO!</label>
           <label>Nome Completo</label>
           <input className='caixa' type='text' name='nome' required></input>
 
